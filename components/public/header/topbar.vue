@@ -27,5 +27,5 @@
 </script>
 
 <style lang="css">
-
+  @import "../../../assets/css/public/header/index.scss";
 </style>

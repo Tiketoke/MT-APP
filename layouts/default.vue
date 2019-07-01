@@ -1,25 +1,24 @@
 <template>
-  <el-container>
-    <el-header>
-      <my-header></my-header>
+  <el-container class="layout-default">
+    <el-header height="197px">
+      <my-header/>
     </el-header>
-    <el-main>
-      <div>
-        <nuxt />
-      </div>
+    <el-main style="overflow: inherit">
+      <nuxt/>
     </el-main>
-    <el-footer> Footer</el-footer>
+    <el-footer height="100%">
+      <my-footer/>
+    </el-footer>
   </el-container>
-  <!--<div>-->
-    <!--<nuxt />-->
-  <!--</div>-->
 </template>
+
 <script>
- import  MyHeader from '@/components/public/header/index.vue'
+  import MyHeader from '@/components/public/header/index.vue'
+  import MyFooter from '@/components/public/footer/index.vue'
   export default {
-   components:{
-     MyHeader
-   }
+    components:{
+      MyHeader,
+      MyFooter
+    }
   }
 </script>
-
