@@ -22,3 +22,12 @@
     }
   }
 </script>
+<style>
+  body{
+    background: #eee;
+  }
+  .el-header,.el-main{
+    padding: 0;
+  }
+
+</style>
