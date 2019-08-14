@@ -13,7 +13,7 @@
 </template>
 
 <script>
-  import Emenu from '@/components/index/menus.vue'
+  import Emenu from '@/components/index/menu.vue'
   export default {
     components:{
       Emenu

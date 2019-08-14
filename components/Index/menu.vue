@@ -2,7 +2,8 @@
     <div class="m-menu">
      <dl class="nav" @mouseleave="mouseleave">
        <dt>全部分类</dt>
-       <dd v-for="(item,idx) in menu" :key="idx" @mouseenter="enter">
+       <dd v-for="(item,idx) in  menu" :key="idx" @mouseenter="enter">
+         <!--$store.status.home.menu-->
          <i :class="item.type"/>{{item.name}}<span class="arrow"></span>
        </dd>
      </dl>
